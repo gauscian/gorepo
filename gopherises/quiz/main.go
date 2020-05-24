@@ -1,3 +1,11 @@
+/*
+* Created on Sun May 17 2020
+*
+* Primary Author - Achin Gupta
+* Copyright (c) 2020 Netskope
+*/
+
+// package main runs the main quic program.
 package main
 
 import (
@@ -12,7 +20,7 @@ import (
 type QInstance code.Question
 
 
-func main() {
+func main_() {
 	data := readCsv("problems.csv")
 	askQuestions(data)
 }
